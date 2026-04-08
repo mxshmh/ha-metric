@@ -78,7 +78,7 @@
         "name": "Samples"
       },
       "samples_per_hour": {
-        "name": "Samples pro Stunde"
+        "name": "Samples diese Stunde"
       },
       "avg_samples_per_hour": {
         "name": "Durchschnittliche Samples pro Stunde"
