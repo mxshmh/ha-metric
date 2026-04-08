@@ -2,7 +2,7 @@
 
 HA-Metric is a Home Assistant custom integration that provides local usage metrics for selected entities.
 
-Status: **Beta** (`0.1.0-beta.1`)
+Status: **Beta** (`0.1.0-beta.3`)
 
 ## What it tracks
 
@@ -17,7 +17,7 @@ Status: **Beta** (`0.1.0-beta.1`)
   - Runtime per discovered source
 - Measurement sensors (`state_class: measurement`):
   - Minimum / Maximum / Average
-  - Samples / Samples per hour / Average samples per hour
+  - Samples / Samples this hour / Average samples per hour
 
 ## Configuration options
 

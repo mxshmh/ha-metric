@@ -28,7 +28,7 @@ For each tracked measurement sensor, HA-Metric provides:
 - `Maximum`
 - `Average`
 - `Samples`
-- `Samples per hour`
+- `Samples this hour`
 - `Average samples per hour`
 
 ## Supported entity types
@@ -83,4 +83,4 @@ Early release. Feedback and edge-case reports are welcome.
 
 ## License
 
-Add your preferred license file before publishing (for example: MIT).
+MIT

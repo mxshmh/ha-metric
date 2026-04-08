@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.1.0-beta.3
+
+- Added repository-level `icon.png` and `logo.png` for better HACS/repo presentation.
+- Added `hide_default_branch` in `hacs.json` to prefer release versions over commit hashes.
+- Renamed label to `Samples this hour` / `Samples diese Stunde`.
+
+## 0.1.0-beta.2
+
+- Fixed `hacs.json` Home Assistant version format for HACS compatibility.
+
 ## 0.1.0-beta.1
 
 - Initial public beta release.
