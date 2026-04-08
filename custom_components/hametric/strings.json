@@ -1,0 +1,54 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HA-Metric",
+        "description": "Choose name, entities, and sensor update mode. Note: This only changes how often sensors refresh, not runtime counting accuracy.",
+        "data": {
+          "name": "Name",
+          "tracked_lights": "Entities",
+          "update_mode": "Update mode",
+          "device_assignment": "Device assignment",
+          "entity_category_mode": "Display area"
+        }
+      },
+      "custom": {
+        "title": "HA-Metric Custom",
+        "description": "Choose a custom sensor update interval in seconds.",
+        "data": {
+          "update_interval_seconds": "Custom (seconds)"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "HA-Metric is already configured."
+    },
+    "error": {
+      "unsupported_entities": "At least one selected entity is unsupported. Allowed: lights, switches, media players, motion binary sensors, and measurement sensors with state_class=measurement."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "HA-Metric Options",
+        "description": "Add or remove tracked entities after setup. Note: Update mode affects sensor refresh only, not runtime accuracy.",
+        "data": {
+          "tracked_lights": "Entities",
+          "update_mode": "Update mode",
+          "device_assignment": "Device assignment",
+          "entity_category_mode": "Display area"
+        }
+      },
+      "custom": {
+        "title": "HA-Metric Custom",
+        "description": "Choose a custom sensor update interval in seconds.",
+        "data": {
+          "update_interval_seconds": "Custom (seconds)"
+        }
+      }
+    },
+    "error": {
+      "unsupported_entities": "At least one selected entity is unsupported. Allowed: lights, switches, media players, motion binary sensors, and measurement sensors with state_class=measurement."
+    }
+  }
+}

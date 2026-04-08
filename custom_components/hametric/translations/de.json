@@ -1,0 +1,88 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HA-Metric",
+        "description": "Wähle Name, Entitäten und Sensor-Aktualisierung. Hinweis: Die Aktualisierung beeinflusst nur, wie oft Sensoren neue Werte anzeigen, nicht die Genauigkeit der internen Betriebszeitzählung.",
+        "data": {
+          "name": "Name",
+          "tracked_lights": "Entitäten",
+          "update_mode": "Aktualisierung",
+          "device_assignment": "Gerätezuordnung",
+          "entity_category_mode": "Anzeigebereich"
+        }
+      },
+      "custom": {
+        "title": "HA-Metric Benutzerdefiniert",
+        "description": "Wähle ein benutzerdefiniertes Sensor-Aktualisierungsintervall in Sekunden.",
+        "data": {
+          "update_interval_seconds": "Benutzerdefiniert (Sekunden)"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "HA-Metric ist bereits eingerichtet."
+    },
+    "error": {
+      "unsupported_entities": "Mindestens eine gewählte Entität wird nicht unterstützt. Erlaubt sind Licht, Schalter, Media-Player, Bewegungs-Binary-Sensoren sowie Mess-Sensoren mit state_class measurement."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "HA-Metric Optionen",
+        "description": "Entitäten nachträglich hinzufügen oder entfernen. Hinweis: Die Aktualisierung beeinflusst nur die Sensoranzeige, nicht die Genauigkeit der Betriebszeitzählung.",
+        "data": {
+          "tracked_lights": "Entitäten",
+          "update_mode": "Aktualisierung",
+          "device_assignment": "Gerätezuordnung",
+          "entity_category_mode": "Anzeigebereich"
+        }
+      },
+      "custom": {
+        "title": "HA-Metric Benutzerdefiniert",
+        "description": "Wähle ein benutzerdefiniertes Sensor-Aktualisierungsintervall in Sekunden.",
+        "data": {
+          "update_interval_seconds": "Benutzerdefiniert (Sekunden)"
+        }
+      }
+    },
+    "error": {
+      "unsupported_entities": "Mindestens eine gewählte Entität wird nicht unterstützt. Erlaubt sind Licht, Schalter, Media-Player, Bewegungs-Binary-Sensoren sowie Mess-Sensoren mit state_class measurement."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "activations": {
+        "name": "Einschaltungen"
+      },
+      "runtime": {
+        "name": "Betriebszeit"
+      },
+      "runtime_source": {
+        "name": "Betriebszeit Quelle {source}"
+      },
+      "avg_runtime_per_activation": {
+        "name": "Durchschnittliche Laufzeit pro Aktivierung"
+      },
+      "minimum": {
+        "name": "Niedrigster Wert"
+      },
+      "maximum": {
+        "name": "Höchster Wert"
+      },
+      "average": {
+        "name": "Durchschnitt"
+      },
+      "samples": {
+        "name": "Samples"
+      },
+      "samples_per_hour": {
+        "name": "Samples pro Stunde"
+      },
+      "avg_samples_per_hour": {
+        "name": "Durchschnittliche Samples pro Stunde"
+      }
+    }
+  }
+}
