@@ -1,4 +1,4 @@
-# Release Checklist (Beta)
+# Release Checklist
 
 ## 1) Create repository
 
@@ -14,9 +14,9 @@ Repository root should contain:
 - `LICENSE`
 - `hacs.json`
 
-## 3) Tag beta release
+## 3) Tag release
 
-- Create tag: `v0.1.0-beta.1`
+- Create tag: `v1.0.0`
 - Publish GitHub Release with short notes from `CHANGELOG.md`.
 
 ## 4) HACS test
@@ -25,7 +25,7 @@ Repository root should contain:
 - Install on a clean HA instance.
 - Verify setup/options/reload and entity creation/removal.
 
-## 5) Public beta
+## 5) Public release
 
 - Mark repository as public.
-- Mention clearly this is a beta and invite issue reports.
+- Invite issue reports for ongoing improvements.

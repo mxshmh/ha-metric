@@ -1,8 +1,8 @@
-# HA-Metric (Beta)
+# HA-Metric
 
 HA-Metric is a Home Assistant custom integration that provides local usage metrics for selected entities.
 
-Status: **Beta** (`0.1.0-beta.3`)
+Status: **Stable** (`1.0.0`)
 
 ## What it tracks
 
@@ -50,8 +50,7 @@ Update mode controls UI refresh frequency. Runtime accounting remains second-acc
 
 ## Notes
 
-- This is a beta release.
-- Please report edge cases before a stable `1.0.0` release.
+- Feedback and issue reports are welcome.
 
 ## License
 
