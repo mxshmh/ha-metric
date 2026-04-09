@@ -1,13 +1,13 @@
 {
   "domain": "hametric",
   "name": "HA-Metric",
-  "version": "1.0.0",
-  "documentation": "https://github.com/mxshmh/ha-metric",
-  "issue_tracker": "https://github.com/mxshmh/ha-metric/issues",
-  "config_flow": true,
-  "requirements": [],
   "codeowners": [
     "@mxshmh"
   ],
-  "iot_class": "local_push"
+  "config_flow": true,
+  "documentation": "https://github.com/mxshmh/ha-metric",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/mxshmh/ha-metric/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }
