@@ -77,6 +77,16 @@ Add the integration in Home Assistant UI and select entities to track.
 - HA-Metric excludes its own generated sensors from re-selection.
 - Motion binary sensors are detected by device class (`motion`, `occupancy`, `presence`) with a compatibility fallback by entity name tokens.
 
+## Helper-based periods (daily/weekly/monthly/yearly)
+
+HA-Metric currently exposes all metrics as all-time values.
+If period-based values are required, create Home Assistant helpers on top of HA-Metric sensors.
+
+Recommended:
+- Create `Utility Meter` helpers for daily, weekly, monthly, and yearly cycles.
+- Use HA-Metric entities (runtime/activations) as the source entities.
+- Keep HA-Metric as raw all-time data and let helpers handle period windows.
+
 ## Development status
 
 Early release. Feedback and edge-case reports are welcome.

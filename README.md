@@ -52,6 +52,18 @@ Update mode controls UI refresh frequency. Runtime accounting remains second-acc
 
 - Feedback and issue reports are welcome.
 
+## Helper-based periods (daily/weekly/monthly/yearly)
+
+HA-Metric currently exposes all metrics as all-time values.
+If you want period-based values, create Home Assistant helper entities on top of HA-Metric sensors.
+
+Recommended approach:
+- Use `Utility Meter` helpers for daily, weekly, monthly, and yearly cycles.
+- Source each helper from the matching HA-Metric sensor (for example runtime or activations).
+- Keep HA-Metric as the single raw source and let helpers handle period resets.
+
+This keeps the integration lightweight while still allowing per-period dashboards and automations.
+
 ## License
 
 MIT
